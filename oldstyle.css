@@ -1,0 +1,117 @@
+body {
+  background-color: #f4f4e8;
+  color: #141E46;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-title-h1 {
+  font-family: "Graduate", serif;
+  background-color: #246a58;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #f4f4e8;
+  text-shadow: 4px 3px 0px #143b30;
+  margin-bottom: 10px;
+}
+
+.nav-button {
+  background-color: #246a58;
+  color: #f4f4e8;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 25px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  background-color: #143b30;
+}
+
+.nav-button:active {
+  background-color: #141E46;
+}
+
+#results-table, a:link, a:visited {
+  text-decoration: none;
+  color: darkslategray;
+}
+
+#results-table a:hover {
+  text-decoration: none;
+  color: #f4f4e8;
+}
+
+.nav-button > a:link, .nav-button > a:visited {
+  color: #f4f4e8;
+  text-decoration: none;
+}
+
+#page-heading-h2 {
+  font-family: "Graduate", serif;
+  color: #143b30;
+  letter-spacing: 1px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  color: darkslategrayS;
+}
+#results-table {
+  border-collapse: collapse;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.20);
+  color: darkslategray;
+}
+
+#results-table thead tr {
+  background-color: #246a58;
+  color: #f4f4e8;
+  text-align: left;
+  font-family: "Fugaz One", serif;
+  font-size: 18pt;
+}
+
+#results-table th,
+#results-table td {
+  padding: 12px 15px;
+  letter-spacing: 2px;
+}
+
+#results-table tbody tr {
+  border-bottom: 0.5px solid #dddddd;
+}
+
+tr:hover {
+  background-color: #143b30;
+  color: #f4f4e8;}
+
+/* .styled-table tbody tr:nth-of-type(even) {
+  background-color: #246a58;
+} */
+
+#results-table tbody tr:last-of-type {
+  border-bottom: 2px solid #246a58;
+}
+
+#results-table img {
+  border-radius: 10px;
+}
+
+#athlete-container {
+  display: flex;
+  gap: 20px;
+}
+
+.shop-table {
+  max-width: 1200px;
+}
